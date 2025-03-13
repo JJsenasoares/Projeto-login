@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+fieldset {
+
+    width: 504px;
+    height: 617px;
+    gap: 26px;
+    border-radius: 10px;
+    border-width: 0.5px;
+    padding: 35px;
+
+}
+
+
+body {
+
+    align-items: center;
+    display: flex;
+}
+
+img{
+    width: 50%;
+    height: 100vh;
+}
+form {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 50%;
+    
+  
+}
+.login {
+
+    & h2 {
+        margin-bottom: 29px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 100%;
+        letter-spacing: 0%;
+
+    }
+
+    & h1 {
+        margin-bottom: 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 31px;
+        line-height: 100%;
+        letter-spacing: 0%;
+
+    }
+
+    & p {
+       
+        margin-bottom: 25px;
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+
+    }
+}
+
+.email {
+    width: 100% ;
+    padding: 2px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    
+    height: 59px;
+    border-radius: 6px;
+    margin-bottom: 38px;
+
+}
+
+.senha {
+    align-self: flex-end;
+    padding: 2px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+.teste {
+    display: flex;
+    align-items: center;
+    border: #000000 0.5px solid;
+    border-radius: 6px;
+    padding-right: 28px;
+    margin-bottom: 30px;
+
+    & img {
+        width: 21px;
+        height: 21px;
+    }
+}
+#email {
+    
+    padding: 19px;
+   width: 100%;
+    height: 59px;
+    top: 33px;
+    border-radius: 6px;
+    border-width: 0.6px;
+    margin-bottom: 38px;
+
+}
+
+#senha {
+    padding: 19px;
+    width: 434px;
+    height: 59px;
+    top: 33px;
+    border-radius: 6px;
+    border-width: 0.6px;
+   border: none;
+   outline: none;
+
+}
+
+.checkbox {
+
+    color: #4D4D4D;
+    justify-content: space-between;
+    margin-bottom: 38px;
+    display: flex;
+
+
+}
+
+
+& button {
+    width: 434px;
+    height: 60px;
+    gap: 10px;
+    border-radius: 6px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: black;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+
+}
